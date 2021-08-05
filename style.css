@@ -1,10 +1,30 @@
+body {
+  background-color:rgb(227, 224, 236);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 form * {
   display: block;
   width: 80%;
   margin: 1em;
 }
 
-#checkbox {
+.checkbox {
   display:inline;
+  width: 10%;
+  margin: 1em;
+}
 
+#message{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#submit{
+  display:inline;
+  text-align: center;
+  margin-left: 5%;
+  width:100px;
+  height:40px;
+  position: center;
+  background: rgb(179, 167, 212);
 }
